@@ -127,9 +127,9 @@ function App() {
               ${theme === 1 ? 'translate-x-[-1rem] bg-1ball' : null} ${theme === 2 ? 'translate-x-0 bg-1ball' : null} ${theme === 3 ? 'translate-x-[1rem] bg-3eql' : null}`}>
               </div>
 
-              <div onClick={() => changeTheme(1)} className="theme-1 w-full h-full z-0"></div>
-              <div onClick={() => changeTheme(2)} className="theme-2 w-full h-full z-0"></div>
-              <div onClick={() => changeTheme(3)} className="theme-3 w-full h-full z-0"></div>
+              <div onClick={() => changeTheme(1)} className="theme-1 w-full h-full z-0 cursor-pointer"></div>
+              <div onClick={() => changeTheme(2)} className="theme-2 w-full h-full z-0 cursor-pointer"></div>
+              <div onClick={() => changeTheme(3)} className="theme-3 w-full h-full z-0 cursor-pointer"></div>
             </div>
 
           </div>
